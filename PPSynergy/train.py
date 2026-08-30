@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import argparse
-from Diffusion_CNN import PPSynergyNet
+from PPSynergy import PPSynergyNet
 
 from model_function import *
 import os
