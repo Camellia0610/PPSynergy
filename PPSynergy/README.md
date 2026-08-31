@@ -47,7 +47,7 @@ reports per-fold and mean ± std metrics.
 ```
 PPSynergy/
 ├── train.py                    # Training, 5-fold CV and result summary
-├── Diffusion_CNN.py            # CNN and DiffusionCNN model definitions
+├── PPSynergy.py                # PPSynergyNet
 ├── model_function.py           # train / test / predict / metric functions
 ├── README.md
 ├── data/
