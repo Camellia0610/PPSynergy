@@ -81,8 +81,8 @@ pip install numpy==1.26.4 pandas==2.3.1 scikit-learn==1.7.1 matplotlib==3.9.2
 
 ### 2. (Optional) Build cell-line pathway features
 
-If you need to regenerate the cell-line pathway activity scores from a gene
-expression matrix (11 cell lines) and the MSigDB GMT file:
+If you need to generate new cell-line pathway activity scores from a gene
+expression matrix and the MSigDB GMT file:
 
 ```bash
 python "data/Construction of cell line features/cell_pathway_mean_scores.py"
